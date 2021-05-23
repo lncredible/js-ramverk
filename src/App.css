@@ -1,0 +1,57 @@
+label {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.calc {
+  justify-content: center;
+}
+
+.filmreview {
+  max-width: 40%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.filmreview div {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.grades p {
+  color: white;
+}
+
+.grades {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0;
+}
+
+img {
+  align-self: center;
+}
+
+.grades li {
+  background-color: gray;
+}
+
+#cancelImg {
+  cursor: pointer;
+}
+
+button {
+  margin-right: 10px;
+}
